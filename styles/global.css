@@ -367,6 +367,80 @@ header {
 
 }
 
+/* página curso de investimento para iniciantes */
+
+
+.primeira-section-inv {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.container-lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 120px;
+
+}
+
+.textos-section-inv {
+    width: 50%;
+}
+
+.imagem-section-inv {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.titulo-inv {
+    color: #FF4081;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.texto-lista-cursos {
+    font-size: 20px;
+    font-weight: 300;
+    color:#000000;
+
+
+}
+
+.segunda-section-inv{
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: #F6F6F6;
+}
+
+.container-videos {
+        display: flex;
+        text-align: justify;
+        padding: 30px 120px;
+        gap: 30px;
+
+}
+
+.titulo-curso-inv {
+    margin-top: 0;
+    color: #FF4081;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.textos-curso-inv {
+    padding: 0 50px 0 20px;
+    color:#000000;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+
+
 /* rodapé */
 footer {
     background-color: #419488;
