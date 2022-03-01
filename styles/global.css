@@ -215,20 +215,18 @@ header {
 .container-section4 {
     display:flex;
     max-width: 1440px;
-    padding: 50px 0;
-    justify-content: space-around;
+    padding: 50px 50px;
+    justify-content: space-between;
     align-items: baseline;
     margin: 0 auto;
+    column-gap: 80px;
 }
 
-.quarta-section-item {
-    padding: 0 60px;
-}
 
 .titulo-section4 {
     color: #009688;
     text-align:left;
-    padding: 0 60px;
+    padding: 0 50px;
     font-weight: bold;
     margin: 0 auto;
     max-width: 1440px;
@@ -238,6 +236,7 @@ header {
 
 .quarta-section-item > img {
     margin: 0 auto;
+    width: 100%;
 
 }
 
