@@ -8,7 +8,7 @@ body {
     font-family: "Ubuntu";
 }
 
-
+/* cabeçalho */
 header {
     background-color: #2E948A;
 }
@@ -54,6 +54,49 @@ header {
     font-style: normal;
 }
 
+
+/* primeira section inicio */
+
+#primeira-section-inicio {
+    display: flex;
+    max-width: 1440px;
+    justify-content: space-evenly;
+    padding: 70px 0;
+
+
+}
+
+#edfin {
+    color:#FF4081;
+    font-weight: bold;
+    font-size: 60px;
+    margin: 0;
+
+}
+
+#p-section1 {
+    color: #555555;
+    font-size: 27px;
+
+}
+
+#botao-primeira-section {
+    text-decoration: none;
+    color: #FF4081;
+    font-size: 27px;
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+    text-align: center;
+    padding: 10px 30px;
+
+}
+
+
+
+
+
+/* rodapé */
 footer {
     background-color: #419488;
     display: block;
