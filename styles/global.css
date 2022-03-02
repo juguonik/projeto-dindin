@@ -492,7 +492,7 @@ input {
 }
 
 button {
-    display:flex;
+    display: flex;
     background: #FF4081;
     border-radius: 50px;
     color: #fff;
@@ -552,7 +552,7 @@ button:hover {
     font-weight: 300;
     color: #000000;
     align-items: center;
-    display:block;
+    display: block;
     padding-right: 100px;
 
 
@@ -593,7 +593,7 @@ button:hover {
     display: block;
     margin-top: 10px;
     padding-bottom: 10px;
-   
+
 }
 
 .p-section2-blog {
@@ -601,13 +601,66 @@ button:hover {
     font-size: 17px;
     font-weight: 300;
     margin: 0 auto;
-    display:block;
+    display: block;
     align-items: center;
 }
 
 .titulos-section2-blog>a {
     text-decoration: none;
     color: #FF4081;
+}
+
+
+
+/* post */
+
+.primeira-section-post {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 50px 204px;
+}
+
+.titulo-post {
+    text-align: center;
+    color: #FF4081;
+    font-size: 50px;
+    font-weight: 500;
+
+}
+
+.data-post {
+    text-align: center;
+    color: #9D9D9D;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.imagem-post {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 50px 0;
+
+}
+
+.texto-post {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.subtitulo-post {
+    color:#419488;
+    font-size: 26px;
+}
+
+.titulo-segunda-section-post {
+    text-align: center;
+    color: #FF4081;
+    font-size: 50px;
+    font-weight: 500;
+    display: block;
+    padding-bottom: 50px;
 }
 
 /* rodapé */
