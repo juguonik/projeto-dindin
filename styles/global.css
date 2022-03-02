@@ -730,6 +730,10 @@ footer {
         justify-content: center;
     }
 
+    #botao-primeira-section {
+        display:block;
+    }
+
     .container-videos {
         align-items: center;
         padding: 30px 50px;
@@ -754,6 +758,10 @@ footer {
     #imagem1-inicio {
         width: 100%;
 
+    }
+
+    #botao-primeira-section {
+        display:block;
     }
 
     .container-section {
@@ -806,7 +814,7 @@ footer {
 
     .primeira-section-post {
         padding: 50px 50px;
-        
+
     }
 
     }
@@ -817,6 +825,7 @@ footer {
 @media all and (max-width: 425px) {
     .logo {
         width: 150px;
+        padding-left: 50px;
     }
     .depoimentos {
         width: 100%;
@@ -835,7 +844,9 @@ footer {
         padding: 5px 10px;
     }
 
-
+#botao-primeira-section {
+    display:block;
+}
     .container-section1-blog {
         flex-direction: column;
         padding: 10px 10px;
