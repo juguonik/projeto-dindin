@@ -8,6 +8,7 @@ body {
     font-family: "Ubuntu";
 }
 
+
 /* cabeçalho */
 header {
     background-color: #2E948A;
@@ -650,7 +651,7 @@ button:hover {
 }
 
 .subtitulo-post {
-    color:#419488;
+    color: #419488;
     font-size: 26px;
 }
 
@@ -717,4 +718,160 @@ footer {
 .link-botao:hover {
     color: #009688;
     background-color: #F7F7F7;
+}
+
+/* ]
+]
+]
+] */
+/* Responsividade laptop */
+@media all and (max-width: 1024px) {
+    .terceira-section-container {
+        justify-content: center;
+    }
+
+    .container-videos {
+        align-items: center;
+        padding: 30px 50px;
+    }
+
+    .titulo-lista-cursos {
+        text-align: left;
+    }
+
+}
+
+
+/* Responsividade tablet */
+@media all and (max-width: 768px) {
+    #primeira-section-inicio {
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 50px;
+
+    }
+
+    #imagem1-inicio {
+        width: 100%;
+
+    }
+
+    .container-section {
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
+
+    .container-section4 {
+        max-width: 500px;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
+
+    #footer-container {
+        padding: 20px 20px;
+
+    }
+
+    #logo-rodape> img {
+        width: 150px;
+    }
+
+    .container-contato {
+        display: block;
+    }
+
+    form {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .contato-img {
+        width: 300px;
+    }
+
+    .container-lista {
+        padding: 30px 50px;
+    }
+
+    .textos-curso-inv {
+        padding: 0;
+    }
+
+    .cursos-banner-texto {
+        padding: 0;
+        
+    }
+
+    .primeira-section-post {
+        padding: 50px 50px;
+        
+    }
+
+    }
+
+
+
+/* Responsividade celular */
+@media all and (max-width: 425px) {
+    .logo {
+        width: 150px;
+    }
+    .depoimentos {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    #footer-container {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .link-botao {
+        padding: 5px 10px;
+    }
+
+
+    .container-section1-blog {
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+
+    .container-section2-blog {
+        display: block;
+        padding: 0;
+    }
+
+    .container-lista {
+        flex-direction: column;
+
+    }
+
+    .textos-section-inv {
+        width: 100%;
+
+    }
+
+    .container-videos {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .imagem-videos {
+        width: 100%;
+    }
+
+    .container-cursos {
+        flex-wrap: wrap;
+
+    }
+
+    .imagem-cursos {
+        width: 100%;
+    }
 }
