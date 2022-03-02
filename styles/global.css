@@ -605,6 +605,10 @@ button:hover {
     align-items: center;
 }
 
+.titulos-section2-blog>a {
+    text-decoration: none;
+    color: #FF4081;
+}
 
 /* rodapé */
 footer {
